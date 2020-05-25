@@ -13,3 +13,20 @@
 	font-size: 90%;
 	letter-spacing: 3px;
 }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #337ab7;
+    }
+
+.nav-pills>li>a {
+	color: #fff;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #337ab7;
+}
+
+.navbar-inverse {
+    padding: 1%;
+}
