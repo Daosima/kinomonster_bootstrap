@@ -1,6 +1,6 @@
 .header a, a:hover {
 	color: #f0ad4e;
-	text-decorationnon
+	text-decoration: none;
 }
 
 .header h1 {
@@ -8,16 +8,10 @@
 	font-size: 300%;
 }
 
-.header p {
-	color: white !important;
-	font-size: 90%;
-	letter-spacing: 3px;
-}
-
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #337ab7;
-    }
+}
 
 .nav-pills>li>a {
 	color: #fff;
@@ -29,4 +23,34 @@
 
 .navbar-inverse {
     padding: 1%;
+}
+
+.header p {
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.header a, a:hover {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+			}
+
+	.header {
+		text-align: center;
+	}
 }
