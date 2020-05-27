@@ -23,6 +23,7 @@
 
 .navbar-inverse {
     padding: 1%;
+    border-radius: 0%;
 }
 
 .header p {
@@ -107,7 +108,6 @@
 	letter-spacing: 2px;
 }
 
-
 .form-control {
 	border-radius: 0px;
 }
@@ -123,6 +123,16 @@
 .input-lg {
 	font-size: 14px;
 }
+
+.list-group-item-warning {
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+}
+
+.badge {
+	background-color: #000000;
+}
+
 
 footer {
 	color: #666;
