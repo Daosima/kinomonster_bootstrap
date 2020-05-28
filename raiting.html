@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Фильмы</title>
+    <title>Рейтинг фильмов</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -60,11 +60,11 @@
             <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
               
               <ul class="nav nav-pills">
-                <li><a href="index.html">Главная</a></li>
-                <li class="active"><a href="films.html">Фильмы</a></li>
-                <li><a href="#">Сериалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
-                <li><a href="contact.html">Контакты</a></li>
+                <li>  <a href="index.html">Главная</a> </li>
+                <li> <a href="films.html">Фильмы</a> </li>
+                <li> <a href="#">Сериалы</a> </li>
+                <li class="active"> <a href="rating.html">Рейтинг фильмов</a> </li>
+                <li> <a href="contact.html">Контакты</a> </li>
 
               </ul>
 
@@ -97,105 +97,59 @@
             </div>
           </form> 
           
-          <h1>Фильмы</h1>
+          <h1>Рейтинг фильмов</h1>
           <hr>
 
-<!--           <div class="media well">
-  <div class="media-left media-middle">
-    <a href="#">
-      <img class="media-object img-thumbnail" src="assets/img/cloud.png" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-        <p>
-        Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-      </p>
-  </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Фильм</th>
+                <th class="text-center">Год</th>
+                <th class="text-center">Рейтинг</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-lg-1 col-md-1 col-xs-2">
+                  <img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="интерстеллар">
+                </td>
+                <td class="vert-align"><a href="show_inter.html">Интерстеллар</a></td>
+                <td class="text-center vert-align">2014</td>
+                <td class="text-center vert-align"><span class="badge">8.1</span></td>
+              </tr>
 
-  <a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
-</div> -->
+              <tr>
+                <td class="col-lg-1 col-md-1 col-xs-2">
+                  <img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
+                </td>
+                <td class="vert-align"><a href="#">Облачный атлас</a></td>
+                <td class="text-center vert-align">2012</td>
+                <td class="text-center vert-align"><span class="badge">8.0</span></td>
+              </tr>
 
+              <tr>
+                <td class="col-lg-1 col-md-1 col-xs-2">
+                  <img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица">
+                </td>
+                <td class="vert-align"><a href="#">Матрица</a></td>
+                <td class="text-center vert-align">1999</td>
+                <td class="text-center vert-align"><span class="badge">7.9</span></td>
+              </tr>
 
-          <div class="row">
-            <div class="well clearfix">
-              <div class="col-lg-3 col-md-2 text-center">
-                <img class="img-thumbnail" src="assets/img/inter.png" alt="интерстеллар">
-                <p>Интерстеллар</p>
-              </div>
-
-              <div class="col-lg-9 col-md-10">
-                <p>
-                  Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-                </p>
-              </div>
-              
-              <div class="col-lg-12 col-md-12">
-                <a href="show.html" class="btn btn-lg btn-warning pull-right">подробнее</a>
-              </div>
-            </div>
-          </div>
-
-           <div class="row">
-            <div class="well clearfix">
-              <div class="col-lg-3 col-md-2 text-center">
-                <img class="img-thumbnail" src="assets/img/matrix.png" alt="матрица">
-                <p>Матрица</p>
-              </div>
-              
-              <div class="col-lg-9 col-md-10">
-                <p>
-                  Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-                </p>
-              </div>
-              
-              <div class="col-lg-12 col-md-12">
-                <a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
-              </div>
-            </div>
-          </div>
+              <tr>
+                <td class="col-lg-1 col-md-1 col-xs-2">
+                  <img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный макс">
+                </td>
+                <td class="vert-align"><a href="#">Безумный макс</a></td>
+                <td class="text-center vert-align">2015</td>
+                <td class="text-center vert-align"><span class="badge">7.8</span></td>
+              </tr>
+            </tbody>
 
 
-          <div class="row">
-            <div class="well clearfix">
-              <div class="col-lg-3 col-md-2 text-center">
-                <img class="img-thumbnail" src="assets/img/cloud.png" alt="облачный атлас">
-                <p>Облачный атлас</p>
-              </div>
+          </table>
 
-              <div class="col-lg-9 col-md-10">
-                <p>
-                  Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-                </p>
-              </div>
-
-              <div class="col-lg-12 col-md-12">
-                <a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="row">
-            <div class="well clearfix">
-              <div class="col-lg-3 col-md-2 text-center">
-                <img class="img-thumbnail" src="assets/img/max.png" alt="Безумный макс">
-                <p>Безумный макс</p>
-              </div>
-
-              <div class="col-lg-9 col-md-10">
-                <p>
-                  Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
-                </p>
-              </div>
-
-              <div class="col-lg-12 col-md-12">
-                <a href="" class="btn btn-lg btn-warning pull-right">подробнее</a>
-              </div>
-
-            </div>
-
-          </div>
 
 
           <div class="margin-8 clear"></div>
